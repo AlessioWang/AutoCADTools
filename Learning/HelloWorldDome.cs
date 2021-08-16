@@ -4,14 +4,18 @@ using Autodesk.AutoCAD.Runtime;
 using Autodesk.AutoCAD.EditorInput;
 using Autodesk.AutoCAD.ApplicationServices;
 
+
+[assembly: CommandClass(typeof(AutoCADLearning.HelloWorldDemo))]
+
+
 namespace AutoCADLearning
 {
-    public class Class1
+    public class HelloWorldDemo
     {
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        // public static void Main(string[] args)
+        // {
+        //     Console.WriteLine("Hello World!");
+        // }
 
 
         [CommandMethod("helloWorld", CommandFlags.Session)]

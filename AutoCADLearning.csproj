@@ -7,15 +7,35 @@
   <ItemGroup>
     <Reference Include="accoremgd">
       <HintPath>..\DLL\accoremgd.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="AcCui">
       <HintPath>..\DLL\AcCui.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="Acdbmgd">
       <HintPath>..\DLL\acdbmgd.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="Acmgd">
       <HintPath>..\DLL\acmgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AdWindows">
+      <HintPath>C:\Autodesk\AutoCAD_2020_Simplified_Chinese_Win_64bit_dlm\x64\acad\PF\Root\AdWindows.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <HintPath>C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\PresentationCore.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Windows.Forms.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <HintPath>C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.0\WindowsBase.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
 
