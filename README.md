@@ -19,6 +19,7 @@
 - **BasicTools Package**
   - AutoGeos: Create basic AutoCAD entities. 
   - AutoTools: Some basic entities operations.
+  - GeoCalculator: [Some geomrtry algorithm](https://blog.csdn.net/zouzouol/article/details/82892849).
 - **Demo Package**
   - A parkinglot drawing demo using BasicTools. 
   - Support commands:
